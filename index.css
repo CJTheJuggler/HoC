@@ -166,6 +166,23 @@ footer {
     background-color: var(--color-2);
     border-top: 1px solid black;
 }
+
+@media screen and (max-width:992px) {
+    .card-template {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .card {
+        max-width: 20rem;
+        margin-top: 1rem;
+    }
+
+    .card img{
+        width: 20rem;
+    }
+    
+}
 footer p {
     margin: 0 auto;
 }
